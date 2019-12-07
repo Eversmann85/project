@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+v = {editable = true,version = "*"}
+setuptools-scm = "*"
+
+[packages]
+awscli = "*"
+pandas = "*"
+fastparquet = "*"
+xlrd = "*"
+csci-utils = {editable = true,git = "https://github.com/csci-e-29/2019fa-csci-utils-eversmann85"}
+
+[requires]
+python_version = "3.7"
