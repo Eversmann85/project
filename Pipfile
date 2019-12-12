@@ -8,6 +8,9 @@ pytest = "*"
 pytest-cov = "*"
 v = {editable = true,version = "*"}
 setuptools-scm = "*"
+pytest-django = "*"
+django-debug-toolbar = "*"
+factory-boy = "*"
 
 [packages]
 awscli = "*"
@@ -15,6 +18,18 @@ pandas = "*"
 fastparquet = "*"
 xlrd = "*"
 csci-utils = {editable = true,git = "https://github.com/csci-e-29/2019fa-csci-utils-eversmann85"}
+django = "*"
+django-environ = "*"
+djangorestframework = "*"
+django-model-utils = "*"
+argon2-cffi = "*"
+django-allauth = "*"
+django-crispy-forms = "*"
+django-extensions = "*"
+coreapi = "*"
+luigi = "*"
+dask = {extras = ["dataframe"],version = "*"}
+s3fs = "*"
 
 [requires]
 python_version = "3.7"
